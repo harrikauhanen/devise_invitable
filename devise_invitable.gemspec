@@ -108,7 +108,7 @@ Gem::Specification.new do |s|
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
       s.add_development_dependency(%q<mocha>, [">= 0"])
       s.add_development_dependency(%q<webrat>, [">= 0"])
-      s.add_runtime_dependency(%q<devise>, ["~> 1.1.0"])
+      s.add_runtime_dependency(%q<devise>, ["1.1.rc1"])
     else
       s.add_dependency(%q<mocha>, [">= 0"])
       s.add_dependency(%q<webrat>, [">= 0"])
